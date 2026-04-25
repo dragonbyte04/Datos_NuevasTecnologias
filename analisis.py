@@ -11,7 +11,7 @@ def analizar_usuarios(ruta_datos):
         print("\nDistribución por Género:")
         print(df['genero'].value_counts())
 
-        print("\nTop 5 Ciudades con más usuarios:")
+        print("\nTop 5 Ciudades con más usuarios: ")
         print(df['ciudad'].value_counts().head(5))
         
     except Exception as e:
