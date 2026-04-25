@@ -1,0 +1,84 @@
+id,nombreCurso,descripcionCurso,numeroNiveles,categoria,dificultad
+1,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,3.0,Programación,básico
+2,spring boot avanzado,Domina la creación de APIs profesionales,7.0,programacion,Avanzado
+3,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
+4,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,5.0,Programación,básico
+8,Spring Boot Avanzado,Domina la creación de APIs profesionales,8.0,,avanzado
+9,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programacion,avanzado
+11,Spring Boot Avanzado,Domina la creación de APIs profesionales,5.0,Programación,intermedio
+13,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,1.0,Programación,
+14,Spring Boot Avanzado,Domina la creación de APIs profesionales,9.0,Programación,avanzado
+15,Arquitectura Microservicios Spring Cloud,Aprende a diseñar sistemas escalables,8.0,Programación,avanzado
+16,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,6.0,Programación,INTERMEDIO
+17,Spring Boot Avanzado,Domina la creación de APIs profesionales,4.0,Programación,intermedio
+19,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,3.0,Programación,básico
+20,Spring Boot Avanzado,Domina la creación de APIs profesionales,7.0,Programación,avanzado
+21,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
+22,Fundamentos Java,Aprende las bases de la programación orientada a objetos,2.0,Programación,básico
+23,Spring Boot Avanzado,Domina la creación de APIs profesionales,6.0,Programación,intermedio
+24,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,8.0,Programación,avanzado
+25,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,5.0,Programación,básico
+26,Spring Boot Avanzado,Domina la creación de APIs profesionales,7.0,Programación,avanzado
+27,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,10.0,Programación,avanzado
+28,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,4.0,Programación,básico
+29,Spring Boot Avanzado,Domina la creación de APIs profesionales,5.0,Programación,intermedio
+30,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
+31,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,1.0,Programación,básico
+32,Spring Boot Avanzado,Domina la creación de APIs profesionales,8.0,Programación,avanzado
+33,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,7.0,Programación,avanzado
+34,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,6.0,Programación,intermedio
+35,Spring Boot Avanzado,Domina la creación de APIs profesionales,4.0,Programación,intermedio
+36,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,10.0,Programación,avanzado
+37,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,3.0,Programación,básico
+38,Spring Boot Avanzado,Domina la creación de APIs profesionales,7.0,Programación,avanzado
+39,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
+40,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,2.0,Programación,básico
+41,Spring Boot Avanzado,Domina la creación de APIs profesionales,6.0,Programación,intermedio
+42,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,8.0,Programación,avanzado
+43,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,5.0,Programación,básico
+44,Spring Boot Avanzado,Domina la creación de APIs profesionales,7.0,Programación,avanzado
+45,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,10.0,Programación,avanzado
+46,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,4.0,Programación,básico
+47,Spring Boot Avanzado,Domina la creación de APIs profesionales,5.0,Programación,intermedio
+48,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
+49,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,3.0,Programación,básico
+50,Spring Boot Avanzado,Domina la creación de APIs profesionales,7.0,Programacion,Avanzado
+55,Fundamentos Java,Aprende las bases de la programación orientada a objetos,2.0,Programación,básico
+56,Spring Boot Avanzado,Domina la creación de APIs profesionales,8.0,,avanzado
+57,Arquitectura Microservicios Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programacion,avanzado
+59,Spring Boot avanzado,Domina la creación de APIs profesionales,5.0,Programación,intermedio
+61,undamentos de Java,Aprende las bases de la programación orientada a objetos,1.0,Programación,
+62,Spring Boot Avanzado,Domina la creación de APIs profesionales,9.0,Programación,avanzado
+63,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,8.0,Programación,AVANZADO
+64,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,6.0,Programación,INTERMEDIO
+65,Spring Boot Avanzado,Domina la creación de APIs profesionales,4.0,Programación,intermedio
+66,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,10.0,Programación,avanzado
+68,Spring Boot Avanzado,Domina la creación de APIs profesionales,7.0,Programación,avanzado
+69,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
+70,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,2.0,Programación,básico
+71,Spring Boot Avanzado,Domina la creación de APIs profesionales,6.0,Programación,intermedio
+72,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,8.0,Programación,avanzado
+73,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,5.0,Programación,básico
+74,Spring Boot Avanzado,Domina la creación de APIs profesionales,7.0,Programación,avanzado
+75,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,10.0,Programación,avanzado
+76,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,4.0,Programación,básico
+77,Spring Boot Avanzado,Domina la creación de APIs profesionales,5.0,Programación,intermedio
+78,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
+79,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,1.0,Programación,básico
+80,Spring Boot Avanzado,Domina la creación de APIs profesionales,8.0,Programación,avanzado
+81,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,7.0,Programación,avanzado
+82,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,6.0,Programación,intermedio
+83,Spring Boot Avanzado,Domina la creación de APIs profesionales,4.0,Programación,intermedio
+84,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,10.0,Programación,avanzado
+85,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,3.0,Programación,básico
+86,Spring Boot Avanzado,Domina la creación de APIs profesionales,7.0,Programación,avanzado
+87,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
+88,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,2.0,Programación,básico
+89,Spring Boot Avanzado,Domina la creación de APIs profesionales,6.0,Programación,intermedio
+90,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,8.0,Programación,avanzado
+91,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,5.0,Programación,básico
+92,Spring Boot Avanzado,Domina la creación de APIs profesionales,7.0,Programación,avanzado
+93,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,10.0,Programación,avanzado
+94,Fundamentos de Java,Aprende las bases de la programación orientada a objetos,4.0,Programación,básico
+95,Spring Boot Avanzado,Domina la creación de APIs profesionales,5.0,Programación,intermedio
+96,Arquitectura de Microservicios con Spring Cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
