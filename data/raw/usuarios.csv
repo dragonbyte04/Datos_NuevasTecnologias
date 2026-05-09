@@ -1,4 +1,4 @@
-id,nombre,apellido,genero,edad,email,password,pais,departamento,ciudad,fecha_registro
+idUsuarios,nombre,apellido,genero,edad,email,password,pais,departamento,ciudad,fecha_registro
 1,Juan,Perez,Masculino,15,juan.perez@gmail.com,123,Colombia,Antioquia,medellin,2026-01-10
 2,Maria,Lopez,Femenino,22,maria.lopezgmail.com,123,Colombia,Cundinamarca,bogota,2026-01-12
 3,Carlos,Ramirez,Masculino,-5,carlos@mail.com,123,Colombia,Valle,cali,2026-01-15

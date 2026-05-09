@@ -1,98 +1,64 @@
 import pandas as pd
-import limpieza
-import carga
-import analisis
+import carga      # Importa sus funciones de carga.py
+import limpieza   # Importa sus funciones de limpieza.py
+import analisis   # Importa sus funciones de analisis.py
 
-df_usuarios = None
-df_curso = None
-isLoader = False
+def menu_principal():
+    # Variables para guardar los datos en la memoria del computador
+    df_usuarios = None
+    df_cursos = None
 
-while True:
-    print("\nMENÚ PRINCIPAL")
-    print("1. Cargar")
-    print("2. Limpiar")
-    print("3. Mostrar")
-    print("4. analisis")
-    print("5. salir")
+    while True:
+        
+        print("   SISTEMA DE GESTIÓN DE DATOS")
+        print("1. Cargar y Limpiar Datos")
+        print("2. Analizar Usuarios y Cursos")
+        print("3. Realizar Merge (Unir Datos)")
+        print("4. Salir")
+        
 
-    opcion = input("Seleccione una opción: ")
+        opcion = input("Seleccione una opción (1-4): ")
 
-    match opcion:
-        case "1":
-            print("\n¿Qué archivo deseas cargar?")
-            print("1. usuarios.")
-            print("2. cursos.")
+        if opcion == "1":
+            # Paso 1: Cargar los archivos RAW (brutos)
+            u_raw = carga.cargar_archivo('data/raw/usuarios.csv')
+            c_raw = carga.cargar_archivo('data/raw/cursos.csv')
 
-            tipo = input("Seleccione una opción: ")
-            if tipo == "1":
-                ruta = "./data/raw/usuarios.csv"
-                df_usuarios = carga.cargar_usuarios(ruta)
-                df_usuarios.info()
-            elif tipo == "2":
-                ruta = "./data/raw/cursos.csv"
-                df_curso = carga.cargar_cursos(ruta)
-                df_curso.info()
+            if u_raw is not None and c_raw is not None:
+                df_usuarios = limpieza.limpiar_usuarios(u_raw)
+                df_cursos = limpieza.limpiar_cursos(c_raw)
+                print("\n¡Éxito! Los datos han sido cargados y limpiados.")
             else:
-                print("\nOpción inválida.")
-                continue
+                print("\nError: Asegúrate de que los archivos existan en data/raw/")
 
+        elif opcion == "2":
+            # Validamos que primero hayan cargado los datos
+            if df_usuarios is not None and df_cursos is not None:
+                analisis.analizar_usuarios(df_usuarios)
+                analisis.analizar_cursos(df_cursos)
+            else:
+                print("\nPrimero debes cargar los datos en la opción 1.")
 
-            isLoader = True
-            print ("Carga completa")
-
-            if df_usuarios is not None:
-                df_usuarios.info()
+        elif opcion == "3":
+            if df_usuarios is not None and df_cursos is not None:
+                print("\nUniendo tablas...")
+                # Hacemos el Merge por la columna 'id_usuario'
+                df_final = pd.merge(df_usuarios, df_cursos, on='idUsuarios', how='inner')
                 
-            if df_curso is not None:
-                df_curso.info()
-
-
-        case "2":
-            print("\n¿Qué archivo deseas limpiar?")
-            print("1. usuarios.")
-            print("2. cursos.")
-
-            tipo = input("Seleccione una opción: ")
-            if tipo == "1":
-                if isLoader:
-                    df_limpio = limpieza.limpiar_usuarios(df_usuarios)
-                    df_limpio.to_csv("./data/processed/usuarios_limpios.csv", index=False)
-                    print ("\nLimpieza completada.")
-            
-            elif tipo == "2":
-                if isLoader:
-                    df_curso_limpio = limpieza.limpiar_cursos(df_curso)
-                    df_curso_limpio.to_csv("./data/processed/cursos_limpio.csv", index=False)
-                    print("\nLimpieza completada.")
-
-        case "3":
-            if isLoader:
-                print("\nDatos actuales:")
-
-                df_usuarios= carga.cargar_usuarios("./data/raw/usuarios.csv")
-                df_curso = carga.cargar_cursos("./data/raw/cursos.csv") 
-                print(df_usuarios.head())
-                print(df_curso.head())
-                
+                # Guardamos el resultado en la carpeta processed
+                df_final.to_csv('data/processed/datos_unificados.csv', index=False)
+                print(f" Merge completado. Se crearon {len(df_final)} registros unificados.")
+                print("Archivo guardado en: data/processed/datos_unificados.csv")
             else:
-                print("\nNo hay datos cargados.")
+                print("\nNo hay datos suficientes para unir. Carga los archivos primero.")
 
-        case "4":
-            print("\n¿Qué deseas analizar?")
-            print("1. Usuarios limpios")
-            print("2. Cursos limpios")
-            sub_opcion = input("Seleccione: ")
-
-            if sub_opcion == "1":
-                analisis.analizar_usuarios("./data/processed/usuarios_limpios.csv")
-            elif sub_opcion == "2":
-                analisis.analizar_cursos("./data/processed/cursos_limpio.csv")
-            else:
-                print("Opción inválida.")
-
-        case "5":
-            print("\nSaliendo del programa.")
+        elif opcion == "4":
+            print("\nCerrando el sistema. ¡Sigue programando!")
             break
+        
+        else:
+            print("\nOpción no válida. Intenta de nuevo.")
 
-        case _:
-            print("\nOpción inválida. Por favor, selecciona un número del 1 al 5.")
+
+if __name__ == "__main__":
+    menu_principal()
