@@ -1,5 +1,7 @@
 import pandas as pd
 import carga      # Importa sus funciones de carga.py
+import grafico
+import grafico
 import limpieza   # Importa sus funciones de limpieza.py
 import analisis   # Importa sus funciones de analisis.py
 
@@ -14,10 +16,10 @@ def menu_principal():
         print("1. Cargar y Limpiar Datos")
         print("2. Analizar Usuarios y Cursos")
         print("3. Realizar Merge (Unir Datos)")
-        print("4. Salir")
-        
+        print("4. Graficos")
+        print("5. salir")
 
-        opcion = input("Seleccione una opción (1-4): ")
+        opcion = input("Seleccione una opción (1-5): ")
 
         if opcion == "1":
             # Paso 1: Cargar los archivos RAW (brutos)
@@ -51,8 +53,16 @@ def menu_principal():
                 print("Archivo guardado en: data/processed/datos_unificados.csv")
             else:
                 print("\nNo hay datos suficientes para unir. Carga los archivos primero.")
-
+                
         elif opcion == "4":
+            # Validamos que existan datos antes de graficar
+            if df_usuarios is not None and df_cursos is not None:
+                print("\nGenerando gráficos... Por favor, cierra la ventana del gráfico para volver al menú.")
+                grafico.generar_visualizaciones(df_usuarios, df_cursos)
+            else:
+                print("\n[!] Error: Primero debes cargar y limpiar los datos (Opción 1).")
+
+        elif opcion == "5":
             print("\nCerrando el sistema. ¡Sigue programando!")
             break
         
