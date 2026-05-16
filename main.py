@@ -1,6 +1,5 @@
 import pandas as pd
-import carga      # Importa sus funciones de carga.py
-import grafico
+import carga    # Importa sus funciones de carga.py
 import grafico
 import limpieza   # Importa sus funciones de limpieza.py
 import analisis   # Importa sus funciones de analisis.py

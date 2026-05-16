@@ -1,7 +1,7 @@
 idUsuarios,nombre,apellido,genero,edad,email,password,pais,departamento,ciudad,fecha_registro,id,nombreCurso,descripcionCurso,numeroNiveles,categoria,dificultad
 1,Juan,Perez,Masculino,15.0,juan.perez@gmail.com,123,Colombia,Antioquia,Medellin,2026-01-10,1,fundamentos de java,Aprende las bases de la programación orientada a objetos,3.0,Programación,básico
 7,Laura,Fernandez,Femenino,25.0,laura@mail.com,123,Colombia,Santander,Bucaramanga,2026-01-25,1,fundamentos de java,,2.0,Programación,básico
-9,Sofia,Diaz,Femenino,16.0,sofia@mail.com,123,Colombia,Tolima,Ibague,2026-02-01,3,arquitectura de microservicios con spring cloud,Aprende a diseñar sistemas escalables,9.0,Programacion,avanzado
+9,Sofia,Diaz,Femenino,16.0,sofia@mail.com,123,Colombia,Tolima,Ibague,2026-02-01,3,arquitectura de microservicios con spring cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
 11,Camila,Ruiz,Femenino,28.0,camila@mail.com,123,Colombia,Caldas,Manizales,2026-02-05,2,spring boot avanzado,Domina la creación de APIs profesionales,5.0,Programación,intermedio
 13,Valentina,Castro,Femenino,21.0,valentina@mail.com,123,Colombia,Nariño,Pasto,2026-02-10,1,fundamentos de java,Aprende las bases de la programación orientada a objetos,1.0,Programación,
 14,Daniel,Vargas,Masculino,18.0,daniel@mail.com,123,Colombia,Cesar,Valledupar,2026-02-12,2,spring boot avanzado,Domina la creación de APIs profesionales,9.0,Programación,avanzado
@@ -27,10 +27,10 @@ idUsuarios,nombre,apellido,genero,edad,email,password,pais,departamento,ciudad,f
 45,Rafael,Hernandez,Masculino,41.0,rafael@mail.com,123,Colombia,Meta,Medellin,2026-04-13,3,arquitectura de microservicios con spring cloud,Aprende a diseñar sistemas escalables,10.0,Programación,avanzado
 46,Yolanda,Ibarra,Femenino,27.0,yolanda@mail.com,123,Colombia,Meta,Bogota,2026-04-15,1,fundamentos de java,Aprende las bases de la programación orientada a objetos,4.0,Programación,básico
 48,Karen,Lozano,Femenino,22.0,karen@mail.com,123,Colombia,Meta,Medellin,2026-04-19,3,arquitectura de microservicios con spring cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
-50,Marcela,Mora,Femenino,30.0,marcela@mail.com,123,Colombia,Meta,Cali,2026-04-23,2,spring boot avanzado,Domina la creación de APIs profesionales,7.0,Programacion,Avanzado
+50,Marcela,Mora,Femenino,30.0,marcela@mail.com,123,Colombia,Meta,Cali,2026-04-23,2,spring boot avanzado,Domina la creación de APIs profesionales,7.0,Programación,Avanzado
 53,Pablo,Pineda,Masculino,45.0,pablo@mail.com,123,Colombia,Meta,Cali,2026-04-23,2,spring boot avanzado,,6.0,Programación,intermedio
 55,Raul,Rendon,Masculino,32.0,raul@mail.com,123,Colombia,Meta,Bogota,2026-04-23,1,fundamentos de java,Aprende las bases de la programación orientada a objetos,2.0,Programación,básico
-57,Tomas,Tovar,Masculino,36.0,tomas@mail.com,123,Colombia,Meta,Medellin,2026-04-23,3,arquitectura de microservicios con spring cloud,Aprende a diseñar sistemas escalables,9.0,Programacion,avanzado
+57,Tomas,Tovar,Masculino,36.0,tomas@mail.com,123,Colombia,Meta,Medellin,2026-04-23,3,arquitectura de microservicios con spring cloud,Aprende a diseñar sistemas escalables,9.0,Programación,avanzado
 59,Victor,Valencia,Masculino,39.0,victor@mail.com,123,Colombia,Meta,Cali,2026-04-23,2,spring boot avanzado,Domina la creación de APIs profesionales,5.0,Programación,intermedio
 60,Wendy,Wilches,Femenino,26.0,wendy@mail.com,123,Colombia,Meta,Medellin,2026-04-23,3,arquitectura de microservicios con spring cloud,,10.0,Programación,avanzado
 61,Ximena,Xiques,Femenino,21.0,ximena@mail.com,123,Colombia,Meta,Bogota,2026-04-23,1,undamentos de java,Aprende las bases de la programación orientada a objetos,1.0,Programación,

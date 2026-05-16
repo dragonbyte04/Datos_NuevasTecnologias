@@ -55,6 +55,19 @@ def limpiar_cursos(df):
         "avanzado": "avanzado"
     })
 
+    df_limpio["categoria"] = df_limpio["categoria"].replace({
+        "programacion": "Programación",
+        "Programacion": "Programación",
+        "programación": "Programación",
+        "ingles": "Inglés",
+        "Ingles": "Inglés",
+        "inglés": "Inglés",
+        "hábitos":"Hábitos",
+        "Habitos":"Hábitos",
+        "habitos":"Hábitos"
+    })
+
+
     df_limpio["numeroNiveles"] = pd.to_numeric(df_limpio["numeroNiveles"], errors="coerce")
     df_limpio = df_limpio[(df_limpio["numeroNiveles"] >= 1) & (df_limpio["numeroNiveles"] <= 10)]
     
